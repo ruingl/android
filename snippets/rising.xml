@@ -8,16 +8,14 @@
            revision="refs/heads/sixteen" />
 
   <remote name="devices"
-          fetch="https://github.com/RisingOS-Revived-devices/"
+          fetch="https://github.com/"
           sync-c="true"
-          sync-j="4"
-          revision="refs/heads/sixteen" />
+          sync-j="4" />
 
   <remote name="devices-gitlab"
-          fetch="https://gitlab.com/RisingOS-Revived-devices/"
+          fetch="https://gitlab.com/"
           sync-c="true"
-          sync-j="4"
-          revision="refs/heads/sixteen" />
+          sync-j="4" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com/"
@@ -29,6 +27,12 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- Device Tree -->
+  <project name="ruingl/android_device_infinix_Infinix-X6531"
+           path="device/infinix/hot50i"
+           remote="github-other"
+           revision="main" />
+  
   <!-- Art -->
   <project path="art" name="android_art" groups="pdk" remote="rising" />
 
